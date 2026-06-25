@@ -1,0 +1,38 @@
+{
+  "id": "telemetry",
+  "title": "Canonical Telemetry",
+  "status": "planned",
+  "tags": ["telemetry", "ingestion", "normalization", "j1939"],
+  "searchKeywords": ["CAN", "metric_type", "tenant_id"],
+  "summary": "Normalized telemetry schema for multi-provider ingestion.",
+  "blocks": [
+    {
+      "id": "why-canonical",
+      "heading": "Why canonical telemetry",
+      "content": "DeltaCore sits above multiple providers. All inbound telemetry must be normalized into a canonical schema before analytics or alerting."
+    },
+    {
+      "id": "fields",
+      "heading": "Key fields",
+      "bullets": [
+        "timestamp_utc, tenant_id, site_id, equipment_id",
+        "source_provider, source_asset_id",
+        "metric_type, metric_unit, numeric_value",
+        "status_or_quality_flag, data_quality_score",
+        "latitude, longitude, engine_hours, odometer",
+        "fuel_level, fuel_rate, ignition_state"
+      ]
+    },
+    {
+      "id": "rules",
+      "heading": "Telemetry rules",
+      "bullets": [
+        "Define accepted units and standard conversion rules",
+        "Support event-based and time-series telemetry",
+        "Track missing data, delayed records and duplicates",
+        "Maintain raw-provider references for auditability and replay",
+        "Idempotent ingestion using provider event IDs or hashes"
+      ]
+    }
+  ]
+}

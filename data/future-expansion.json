@@ -1,0 +1,27 @@
+{
+  "id": "future-expansion",
+  "title": "Future Expansion",
+  "status": "planned",
+  "tags": ["future", "erp", "cmms", "edge", "mobile"],
+  "summary": "Phase 2+ platform expansion items.",
+  "blocks": [
+    {
+      "id": "expansion-items",
+      "heading": "Future capabilities",
+      "bullets": [
+        "ERP and CMMS integrations",
+        "Edge gateway and native mobile applications",
+        "Digital twins and customer-specific AI models",
+        "Cross-mine fleet benchmarking",
+        "Operator behavior scoring and GPS geofencing",
+        "Dedicated rugged hardware platform with edge inference",
+        "In-browser portal editing and advanced hosting (Phase 2 portal)"
+      ]
+    },
+    {
+      "id": "hardware",
+      "heading": "Future hardware platform",
+      "content": "Rugged industrial edge device: CAN Bus, J1939, GPS, LTE/5G, secure communications, optional edge inference. Device hosts models and gathers data — it is not the AI itself."
+    }
+  ]
+}

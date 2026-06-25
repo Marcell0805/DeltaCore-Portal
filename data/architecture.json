@@ -1,0 +1,42 @@
+{
+  "id": "architecture",
+  "title": "Architecture",
+  "status": "in_progress",
+  "tags": ["architecture", "monolith", "microservices", "fastapi"],
+  "searchKeywords": ["TimescaleDB", "Redis", "API Gateway"],
+  "summary": "Tiered architecture from POC modular monolith to target microservices.",
+  "blocks": [
+    {
+      "id": "tiered-approach",
+      "heading": "Tiered deployment strategy",
+      "content": "Logical service boundaries are defined upfront. Physical deployment starts as a modular monolith for pilot speed, decomposing at M8 when scale or isolation requires it.",
+      "bullets": [
+        "POC — Single FastAPI or ASP.NET app + demo UI (rapid iteration)",
+        "Pilot MVP — Modular monolith + managed PostgreSQL (current .NET path)",
+        "Production — API Gateway + microservices + event bus + full observability"
+      ]
+    },
+    {
+      "id": "core-modules",
+      "heading": "Core modules",
+      "bullets": [
+        "Identity and Security",
+        "Multi-tenant Company Management",
+        "Mine and Site Management",
+        "Fleet and Equipment",
+        "Telemetry Ingestion",
+        "Fuel Intelligence",
+        "Predictive Maintenance",
+        "Alerting",
+        "Reporting",
+        "AI Services",
+        "Administration"
+      ]
+    },
+    {
+      "id": "data-flow",
+      "heading": "Data flow",
+      "content": "Equipment and sensors → telematics providers → provider adapters → canonical telemetry → analytics and AI engine → alerts and dashboards. Failed records are quarantined for replay; data quality is scored."
+    }
+  ]
+}

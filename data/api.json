@@ -1,0 +1,36 @@
+{
+  "id": "api",
+  "title": "API Documentation",
+  "status": "live",
+  "tags": ["api", "rest", "openapi", "swagger", "jwt"],
+  "summary": "REST API standards and Swagger documentation.",
+  "blocks": [
+    {
+      "id": "standards",
+      "heading": "API standards",
+      "bullets": [
+        "REST with OpenAPI specification",
+        "JWT authentication",
+        "Versioned endpoints under /api/v1",
+        "Consistent error model",
+        "Pagination and filtering on all list endpoints"
+      ]
+    },
+    {
+      "id": "categories",
+      "heading": "API categories",
+      "bullets": [
+        "External customer API",
+        "Provider ingestion API",
+        "Internal service-to-service APIs",
+        "Administration API",
+        "Webhooks and event interfaces (future)"
+      ]
+    },
+    {
+      "id": "swagger",
+      "heading": "Interactive documentation",
+      "content": "When running locally, Swagger UI is available at https://localhost:5001/swagger. Entity CRUD endpoints are generated per domain model."
+    }
+  ]
+}

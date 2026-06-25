@@ -1,0 +1,35 @@
+{
+  "id": "alerts",
+  "title": "Alert Engine",
+  "status": "planned",
+  "tags": ["alerts", "severity", "anomaly", "fuel theft"],
+  "searchKeywords": ["acknowledged", "critical", "confidence"],
+  "summary": "First-class alerting with rules and model-driven detections.",
+  "blocks": [
+    {
+      "id": "overview",
+      "heading": "Overview",
+      "content": "Alerting is a first-class product capability supporting deterministic rules and model-driven detections with human-readable explanations."
+    },
+    {
+      "id": "lifecycle",
+      "heading": "Alert lifecycle",
+      "bullets": [
+        "Severity: info, warning, critical",
+        "Status: open, acknowledged, resolved, dismissed",
+        "Fields: alert_type, confidence, explanation, recommended_action",
+        "Deduplication and suppression to reduce noise",
+        "Feedback loop to monitor false positives"
+      ]
+    },
+    {
+      "id": "examples",
+      "heading": "Example alert types",
+      "bullets": [
+        "fuel_anomaly — rapid drop in fuel level",
+        "theft_suspect — fuel loss without corresponding usage",
+        "excessive_idle — abnormal idle fuel consumption"
+      ]
+    }
+  ]
+}

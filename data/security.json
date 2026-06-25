@@ -1,0 +1,36 @@
+{
+  "id": "security",
+  "title": "Security and Data Governance",
+  "status": "in_progress",
+  "tags": ["security", "rbac", "mfa", "governance", "audit"],
+  "summary": "RBAC, encryption, audit logging and data ownership.",
+  "blocks": [
+    {
+      "id": "security-controls",
+      "heading": "Security controls",
+      "bullets": [
+        "RBAC with MFA support",
+        "Encrypted communications (TLS)",
+        "Secrets management — never commit credentials",
+        "Audit logging and least-privilege access",
+        "Regular backups and disaster recovery planning",
+        "Future hardware: device identity, secure boot, firmware signing"
+      ]
+    },
+    {
+      "id": "multi-tenancy",
+      "heading": "Multi-tenancy",
+      "content": "Default: shared database with strict tenant isolation via tenant_id. Cross-tenant analytics disabled unless explicitly contracted and anonymized."
+    },
+    {
+      "id": "governance",
+      "heading": "Data governance",
+      "bullets": [
+        "Customers own raw operational data unless contracts define otherwise",
+        "Derived features and model outputs require clear contractual terms",
+        "Provider-originated data usage complies with partner agreements",
+        "All ingestion, transformation and access actions are auditable"
+      ]
+    }
+  ]
+}

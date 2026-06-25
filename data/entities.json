@@ -1,0 +1,35 @@
+{
+  "id": "entities",
+  "title": "Database and Entities",
+  "status": "live",
+  "tags": ["entities", "database", "postgresql", "company", "equipment"],
+  "searchKeywords": ["FuelEvent", "Alert", "Role", "Integration"],
+  "summary": "Core domain entities in the DeltaCore data model.",
+  "blocks": [
+    {
+      "id": "hierarchy",
+      "heading": "Tenant hierarchy",
+      "content": "Company is the tenant root. Mine → Site → Equipment forms the operational hierarchy. All tenant-scoped entities carry Company_Id for isolation."
+    },
+    {
+      "id": "core-entities",
+      "heading": "Core entities (Phase 1)",
+      "bullets": [
+        "Company, Mine, Site, Equipment — asset registry",
+        "Sensor — equipment-attached sensors",
+        "Integration — provider connection configuration",
+        "FuelEvent — fuel consumption, refuel and anomaly events",
+        "Alert — operational alerts with lifecycle and severity",
+        "User, Role — RBAC foundation",
+        "Operator — Phase 2 operator scoring",
+        "MaintenanceRecord, Prediction — Phase 2 maintenance AI",
+        "TelemetryReading — high-volume time series (Phase 2 / Timescale)"
+      ]
+    },
+    {
+      "id": "scripts",
+      "heading": "Database scripts",
+      "content": "SQL scripts live in scripts/postgresql/: 001-create-tables.sql and 002-seed-data.sql. Development may use EF EnsureCreated when enabled in appsettings."
+    }
+  ]
+}

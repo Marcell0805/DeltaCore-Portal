@@ -1,0 +1,27 @@
+{
+  "id": "solution-structure",
+  "title": "Solution Structure",
+  "status": "live",
+  "tags": ["solution", "AppGen", "layers", "projects"],
+  "summary": "DeltaCore.sln layered projects and responsibilities.",
+  "blocks": [
+    {
+      "id": "projects",
+      "heading": "Solution projects",
+      "bullets": [
+        "DeltaCore.API — REST API, Swagger, OpenAPI, API versioning",
+        "DeltaCore.Application — application services and use cases",
+        "DeltaCore.Domain — domain entities",
+        "DeltaCore.Persistence — EF Core, DbContext, repositories",
+        "DeltaCore.Shared — DTOs and shared contracts",
+        "DeltaCore.MVC — optional MVC admin UI (calls API via HttpClient)",
+        "DeltaCore.Tests — automated tests"
+      ]
+    },
+    {
+      "id": "portal-separate",
+      "heading": "Engineering Portal (separate)",
+      "content": "The Engineering Portal is a static documentation site. It is not part of DeltaCore.sln. Source is maintained in portal/ within the private repo and published to a separate public documentation repository via CI."
+    }
+  ]
+}

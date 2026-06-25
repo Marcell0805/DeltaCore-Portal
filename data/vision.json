@@ -1,0 +1,32 @@
+{
+  "id": "vision",
+  "title": "Executive Vision",
+  "status": "live",
+  "tags": ["vision", "petroman", "ava", "telematics", "fuel"],
+  "searchKeywords": ["Dingo", "augment"],
+  "summary": "DeltaCore augments existing telemetry providers rather than replacing them.",
+  "blocks": [
+    {
+      "id": "vision-statement",
+      "heading": "Vision statement",
+      "content": "DeltaCore is an industrial intelligence platform that augments existing mining, fleet and telemetry systems by transforming operational data into actionable insights. DeltaCore enhances providers such as PetroMan, AVA and Dingo rather than replacing them."
+    },
+    {
+      "id": "product-goals",
+      "heading": "Product goals",
+      "bullets": [
+        "Reduce operating costs through fuel optimization and loss prevention",
+        "Detect fuel theft, anomalies and abnormal consumption",
+        "Increase equipment uptime via predictive maintenance insights",
+        "Improve operator performance through scoring and benchmarking",
+        "Provide enterprise dashboards, reporting and real-time alerting",
+        "Integrate with existing telemetry providers"
+      ]
+    },
+    {
+      "id": "value-proposition",
+      "heading": "Value proposition",
+      "content": "PetroMan and similar systems collect data. DeltaCore provides intelligence — forecasting, anomaly detection, optimization and fleet-wide insights delivered as an enhancement layer through APIs and dashboards."
+    }
+  ]
+}

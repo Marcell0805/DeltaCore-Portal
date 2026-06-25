@@ -1,0 +1,47 @@
+{
+  "id": "integrations",
+  "title": "Integrations and Partnership Strategy",
+  "status": "planned",
+  "tags": ["petroman", "ava", "dingo", "integration", "partnership"],
+  "searchKeywords": ["shadow mode", "white label", "revenue share"],
+  "summary": "Staged provider onboarding and partnership approach.",
+  "blocks": [
+    {
+      "id": "strategy",
+      "heading": "Partnership strategy",
+      "content": "Approach incumbent telematics providers as allies. DeltaCore acts as an AI enhancement layer through APIs, white-label products and revenue-sharing arrangements."
+    },
+    {
+      "id": "petroman-phases",
+      "heading": "PetroMan integration phases",
+      "bullets": [
+        "Phase 1 — Read-only API integration (no operational change)",
+        "Phase 2 — Shadow-mode analytics (insights in DeltaCore only)",
+        "Phase 3 — Demonstrate measurable ROI",
+        "Phase 4 — Operational deployment with alerts and optional edge agents"
+      ]
+    },
+    {
+      "id": "provider-catalog",
+      "heading": "Data source catalog",
+      "bullets": [
+        "PetroMan — fuel level, consumption, refuel events (Phase 1, primary)",
+        "AVA — GPS, engine hours, telemetry, faults (Phase 1, primary)",
+        "Dingo — fleet telematics (Phase 2)",
+        "CAN/J1939 — engine and fuel rate via edge adapter (Phase 2)",
+        "Simulated data — CSV/generator for POC and demos (now)"
+      ]
+    },
+    {
+      "id": "framework",
+      "heading": "Integration framework requirements",
+      "bullets": [
+        "Provider adapters translate APIs into canonical schema",
+        "Idempotent ingestion with deduplication keys",
+        "Authentication rotation, rate limits, retries and audit trails",
+        "Quarantine failed records for replay",
+        "Equipment ID mapping between provider and DeltaCore records"
+      ]
+    }
+  ]
+}

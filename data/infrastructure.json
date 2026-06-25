@@ -1,0 +1,51 @@
+{
+  "id": "infrastructure",
+  "title": "Infrastructure and Deployment",
+  "status": "planned",
+  "tags": ["deployment", "nfr", "docker", "azure", "ci cd"],
+  "searchKeywords": ["RPO", "RTO", "99.5"],
+  "summary": "Environments, non-functional requirements and deployment approach.",
+  "blocks": [
+    {
+      "id": "environments",
+      "heading": "Environments",
+      "bullets": [
+        "Local development",
+        "Shared development",
+        "Staging / UAT",
+        "Pilot production",
+        "Full production"
+      ]
+    },
+    {
+      "id": "stack",
+      "heading": "Technology stack",
+      "bullets": [
+        "Backend: ASP.NET Core (FastAPI optional alternative)",
+        "Database: PostgreSQL (+ TimescaleDB for telemetry later)",
+        "Cache: Redis (later phases)",
+        "Containers: Docker",
+        "CI/CD: GitHub Actions",
+        "Monitoring: Grafana + Prometheus",
+        "Logging: OpenTelemetry"
+      ]
+    },
+    {
+      "id": "nfrs",
+      "heading": "Non-functional requirements (pilot targets)",
+      "bullets": [
+        "API availability: 99.5%",
+        "Telemetry ingestion delay: under 5 minutes",
+        "Dashboard load time: under 3 seconds",
+        "Alert generation delay: under 2 minutes after qualifying event",
+        "Telemetry retention: 24 months configurable",
+        "Backup RPO: 24 hours | RTO: 8 hours"
+      ]
+    },
+    {
+      "id": "portal-hosting",
+      "heading": "Engineering Portal hosting",
+      "content": "Portal static files are built from portal/ in the private DeltaCore repo and published to a separate public DeltaCore-Portal repository via GitHub Actions. No product source code is deployed to the public site."
+    }
+  ]
+}

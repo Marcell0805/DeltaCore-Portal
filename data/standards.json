@@ -1,0 +1,40 @@
+{
+  "id": "standards",
+  "title": "Development Standards",
+  "status": "live",
+  "tags": ["clean architecture", "solid", "testing", "adr"],
+  "summary": "Engineering standards and definition of done.",
+  "blocks": [
+    {
+      "id": "architecture-standards",
+      "heading": "Architecture standards",
+      "bullets": [
+        "Clean Architecture with clear layer boundaries",
+        "SOLID principles",
+        "Repository and Unit of Work patterns where appropriate",
+        "Dependency injection",
+        "Structured logging",
+        "Architecture Decision Records (ADRs) for major decisions"
+      ]
+    },
+    {
+      "id": "definition-of-done",
+      "heading": "Definition of done",
+      "content": "No feature is complete until all three are updated:",
+      "bullets": [
+        "Code — merged with review",
+        "Tests — unit and integration where appropriate",
+        "Documentation — portal or ADR updated for architectural or product changes"
+      ]
+    },
+    {
+      "id": "git-workflow",
+      "heading": "Git workflow",
+      "bullets": [
+        "Feature branches and pull requests",
+        "Migration-controlled database changes",
+        "Secrets managed outside source control"
+      ]
+    }
+  ]
+}

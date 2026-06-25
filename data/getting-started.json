@@ -1,0 +1,47 @@
+{
+  "id": "getting-started",
+  "title": "Getting Started",
+  "status": "live",
+  "tags": ["mission control", "repository", "run", "swagger"],
+  "searchKeywords": ["AppGen", "Live Server", "PostgreSQL"],
+  "summary": "Current repository state, how to run DeltaCore, and how this portal relates to the product.",
+  "sidebarNote": "Welcome to Mission Control — the engineering knowledge base for DeltaCore.",
+  "blocks": [
+    {
+      "id": "welcome",
+      "heading": "Welcome",
+      "content": "DeltaCore is an industrial intelligence platform for mining, construction, fleet, plant hire and logistics. This portal documents vision, architecture, standards and roadmap. The product source code lives in a private repository; this public site contains documentation only."
+    },
+    {
+      "id": "current-state",
+      "heading": "Current state",
+      "content": "The solution is an AppGen-scaffolded ASP.NET Core foundation with PostgreSQL, REST API, MVC admin UI, and core domain entities (Company, Mine, Site, Equipment, Fuel, Alerts, Users).",
+      "bullets": [
+        "M1 foundation: database schema, authentication data model, CRUD API and MVC — in progress / live",
+        "Telemetry ingestion, fuel analytics engine, and production AI — planned",
+        "Existing POC: Streamlit dashboard on GitHub (DeltaCoreAI org) — separate from this .NET foundation"
+      ]
+    },
+    {
+      "id": "run-product",
+      "heading": "Run the product locally",
+      "content": "From the private DeltaCore repository:",
+      "bullets": [
+        "Update connection strings in src/DeltaCore.API/appsettings.json",
+        "Run scripts/postgresql/001-create-tables.sql and optionally 002-seed-data.sql",
+        "dotnet build DeltaCore.sln",
+        "API Swagger: https://localhost:5001/swagger",
+        "MVC UI: https://localhost:5101"
+      ]
+    },
+    {
+      "id": "portal-vs-mvc",
+      "heading": "Portal vs MVC vs API",
+      "bullets": [
+        "DeltaCore.API — platform backend and REST endpoints",
+        "DeltaCore.MVC — operational admin (equipment, alerts, fuel events)",
+        "Engineering Portal (this site) — vision, architecture, standards for sharing"
+      ]
+    }
+  ]
+}

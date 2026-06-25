@@ -1,0 +1,25 @@
+{
+  "id": "fuel-intelligence",
+  "title": "Fuel Intelligence",
+  "status": "planned",
+  "tags": ["fuel", "theft", "anomaly", "forecast", "phase 1"],
+  "summary": "Phase 1 commercial module — fuel analytics and loss prevention.",
+  "blocks": [
+    {
+      "id": "capabilities",
+      "heading": "Capabilities",
+      "bullets": [
+        "Forecast fuel consumption (statistical baselines initially)",
+        "Detect anomalies and abnormal consumption patterns",
+        "Support fuel theft detection with explainable alerts",
+        "Refueling optimization insights (Phase 1.5)",
+        "Equipment-level and fleet-level fuel dashboards"
+      ]
+    },
+    {
+      "id": "mvp-status",
+      "heading": "Current status",
+      "content": "FuelEvent entity and CRUD API exist. Analytics engine, forecasting models and production dashboards are planned for M4–M6."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    { "id": "getting-started", "num": 1, "file": "getting-started.html", "label": "Getting Started", "available": true },
+    { "id": "vision", "num": 2, "file": "vision.html", "label": "Vision", "available": true },
+    { "id": "mvp-scope", "num": 3, "file": "mvp-scope.html", "label": "MVP Scope", "available": true },
+    { "id": "roadmap", "num": 4, "file": "roadmap.html", "label": "Product Roadmap", "available": true },
+    { "id": "architecture", "num": 5, "file": "architecture.html", "label": "Architecture", "available": true },
+    { "id": "solution-structure", "num": 6, "file": "solution-structure.html", "label": "Solution Structure", "available": true },
+    { "id": "entities", "num": 7, "file": "entities.html", "label": "Database and Entities", "available": true },
+    { "id": "telemetry", "num": 8, "file": "telemetry.html", "label": "Canonical Telemetry", "available": true },
+    { "id": "integrations", "num": 9, "file": "integrations.html", "label": "Integrations", "available": true },
+    { "id": "api", "num": 10, "file": "api.html", "label": "API Documentation", "available": true },
+    { "id": "fuel-intelligence", "num": 11, "file": "fuel-intelligence.html", "label": "Fuel Intelligence", "available": true },
+    { "id": "alerts", "num": 12, "file": "alerts.html", "label": "Alerts", "available": true },
+    { "id": "ai-roadmap", "num": 13, "file": "ai-roadmap.html", "label": "AI and MLOps", "available": true },
+    { "id": "security", "num": 14, "file": "security.html", "label": "Security", "available": true },
+    { "id": "infrastructure", "num": 15, "file": "infrastructure.html", "label": "Infrastructure and Deployment", "available": true },
+    { "id": "standards", "num": 16, "file": "standards.html", "label": "Development Standards", "available": true },
+    { "id": "adrs", "num": 17, "file": "adrs.html", "label": "Engineering Decisions", "available": true },
+    { "id": "research", "num": 18, "file": "research.html", "label": "Research", "available": true },
+    { "id": "faq", "num": 19, "file": "faq.html", "label": "FAQ", "available": true },
+    { "id": "future-expansion", "num": 20, "file": "future-expansion.html", "label": "Future Expansion", "available": true }
+  ]
+}

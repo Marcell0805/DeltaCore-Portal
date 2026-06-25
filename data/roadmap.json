@@ -1,0 +1,45 @@
+{
+  "id": "roadmap",
+  "title": "Product Roadmap",
+  "status": "live",
+  "tags": ["roadmap", "phase", "maintenance", "vision ai"],
+  "searchKeywords": ["M0", "M8", "undercarriage"],
+  "summary": "Phase 1 Fuel Intelligence through Phase 3 Vision AI and future hardware.",
+  "blocks": [
+    {
+      "id": "product-phases",
+      "heading": "Product phases",
+      "bullets": [
+        "Phase 1 — Fuel Intelligence (commercial first module)",
+        "Phase 2 — Predictive Maintenance AI",
+        "Phase 3 — Undercarriage Vision AI",
+        "Future — Edge hardware and fleet-wide adaptive intelligence"
+      ]
+    },
+    {
+      "id": "milestones",
+      "heading": "Engineering milestones (M0–M8)",
+      "bullets": [
+        "M0 — Architecture and specifications",
+        "M1 — Database and authentication (current foundation)",
+        "M2 — Telemetry ingestion and canonical normalization",
+        "M3 — Fleet dashboard and health score widget",
+        "M4 — Fuel analytics module",
+        "M5 — Alert engine",
+        "M6 — AI proof of concept and investor demo",
+        "M7 — Pilot deployment with live provider data",
+        "M8 — Production hardening and service decomposition"
+      ]
+    },
+    {
+      "id": "integration-phases",
+      "heading": "Provider integration phases",
+      "bullets": [
+        "Phase 1 — Read-only API integration",
+        "Phase 2 — Shadow-mode analytics",
+        "Phase 3 — Demonstrate measurable ROI",
+        "Phase 4 — Operational deployment"
+      ]
+    }
+  ]
+}

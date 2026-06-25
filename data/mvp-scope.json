@@ -1,0 +1,55 @@
+{
+  "id": "mvp-scope",
+  "title": "MVP Scope",
+  "status": "in_progress",
+  "tags": ["mvp", "pilot", "scope", "fuel"],
+  "summary": "What is in and out of scope for the first pilot release.",
+  "blocks": [
+    {
+      "id": "in-scope",
+      "heading": "In scope for MVP / pilot",
+      "bullets": [
+        "Company, site, fleet and equipment management",
+        "Telemetry ingestion from simulated or live provider feeds",
+        "Fuel analytics, anomaly detection, health scoring and alerting",
+        "Investor-ready dashboard and reporting views",
+        "Role-based authentication and REST APIs",
+        "Shadow-mode analytics alongside existing provider platforms",
+        "Initial statistical anomaly detection (analytics maturity L1–L2)"
+      ]
+    },
+    {
+      "id": "out-of-scope",
+      "heading": "Out of scope for MVP",
+      "bullets": [
+        "Custom AI chip development",
+        "Full autonomous edge hardware platform",
+        "Production-grade multi-region scale from day one",
+        "Advanced supervised ML requiring unavailable labeled data",
+        "GPS geofencing and operator scoring (Phase 2)"
+      ]
+    },
+    {
+      "id": "engineering-principles",
+      "heading": "Engineering principles",
+      "bullets": [
+        "Reliable ingestion and clean data before sophisticated models",
+        "Integrate into existing systems first",
+        "Explainable analytics before opaque models",
+        "Design for future scale; optimize MVP for pilot ROI",
+        "Modular monolith for pilot; decompose when scale demands"
+      ]
+    },
+    {
+      "id": "pilot-success",
+      "heading": "Pilot success criteria",
+      "bullets": [
+        "Ingest data from at least one live provider",
+        "Onboard at least one real pilot site with stable daily ingestion",
+        "Detect and surface actionable fuel anomalies",
+        "Identify at least one credible cost-saving or loss-prevention opportunity",
+        "Establish baseline analytics accuracy metrics"
+      ]
+    }
+  ]
+}

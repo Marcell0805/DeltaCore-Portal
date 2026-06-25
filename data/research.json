@@ -1,0 +1,22 @@
+{
+  "id": "research",
+  "title": "Research",
+  "status": "planned",
+  "tags": ["research", "petroman", "mqtt", "timescaledb", "j1939"],
+  "searchKeywords": ["Azure", "CAN Bus"],
+  "summary": "Technical research topics for future phases.",
+  "blocks": [
+    {
+      "id": "topics",
+      "heading": "Research topics",
+      "bullets": [
+        "PetroMan API access process and data formats",
+        "AVA telematics integration specifications",
+        "MQTT and Kafka for event-driven architecture",
+        "CAN Bus and J1939 edge gateway design",
+        "TimescaleDB hypertables for telemetry at scale",
+        "Azure deployment options for pilot environments"
+      ]
+    }
+  ]
+}

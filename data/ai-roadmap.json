@@ -1,0 +1,51 @@
+{
+  "id": "ai-roadmap",
+  "title": "AI and MLOps",
+  "status": "planned",
+  "tags": ["ai", "mlops", "anomaly", "forecast", "maintenance"],
+  "searchKeywords": ["L1", "L4", "Colab", "scikit-learn"],
+  "summary": "AI roadmap, analytics maturity model and MLOps requirements.",
+  "blocks": [
+    {
+      "id": "maturity",
+      "heading": "Analytics maturity model",
+      "bullets": [
+        "L1 — Dashboards, KPIs, threshold rules (MVP target)",
+        "L2 — Statistical anomaly detection and baseline forecasting (MVP target)",
+        "L3 — Supervised models with labeled history (pilot extension)",
+        "L4 — Adaptive optimization, fleet intelligence, edge inference (future)"
+      ]
+    },
+    {
+      "id": "modules",
+      "heading": "AI module roadmap",
+      "bullets": [
+        "Fuel Intelligence — forecast, anomaly, theft detection",
+        "Predictive Maintenance — RUL, failure prediction (requires labeled data)",
+        "Vision AI — undercarriage wear, component classification"
+      ]
+    },
+    {
+      "id": "training-pipeline",
+      "heading": "Training pipeline",
+      "bullets": [
+        "Obtain minimum 6 months historical fuel and telemetry data",
+        "Engineer features aligned to canonical telemetry schema",
+        "Train models (Colab initially, then automated jobs)",
+        "Evaluate offline; register model weights with version metadata",
+        "Deploy shadow-mode; monitor drift and retrain on approval"
+      ]
+    },
+    {
+      "id": "mlops",
+      "heading": "MLOps requirements",
+      "bullets": [
+        "Model registry and versioning",
+        "Feature and dataset versioning",
+        "Experiment tracking and offline evaluation metrics",
+        "Online monitoring for drift and performance degradation",
+        "Confidence scores, explainability and minimum data thresholds"
+      ]
+    }
+  ]
+}

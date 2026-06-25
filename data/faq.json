@@ -1,0 +1,31 @@
+{
+  "id": "faq",
+  "title": "Frequently Asked Questions",
+  "status": "live",
+  "tags": ["faq", "questions"],
+  "summary": "Open questions and common answers.",
+  "blocks": [
+    {
+      "id": "faq-items",
+      "heading": "FAQ",
+      "bullets": [
+        "Does DeltaCore replace PetroMan or AVA? — No. DeltaCore augments existing providers as an intelligence layer.",
+        "Is the product source code public? — No. DeltaCore source is private. This portal is a curated public documentation site.",
+        "What is built today? — AppGen-scaffolded API, MVC admin, PostgreSQL schema and core entity CRUD.",
+        "When will live PetroMan data be integrated? — Target M2–M7 pilot milestones after provider API access.",
+        "Why a separate portal repo? — To share vision and architecture without exposing proprietary source code.",
+        "How do I update portal content? — Edit portal/data/*.json in the private repo, run build-portal.ps1, push; CI deploys to public portal repo."
+      ]
+    },
+    {
+      "id": "open-questions",
+      "heading": "Open questions (to resolve)",
+      "bullets": [
+        "First pilot scope and site selection",
+        "Commercial licensing and multi-tenant pricing",
+        "PetroMan / AVA API specifications and access process",
+        "SLA expectations and support model for pilot"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "adrs",
+  "title": "Engineering Decisions (ADRs)",
+  "status": "planned",
+  "tags": ["adr", "decisions", "architecture"],
+  "summary": "Architecture Decision Records — placeholder for documented decisions.",
+  "blocks": [
+    {
+      "id": "adr-format",
+      "heading": "ADR format",
+      "content": "Every major engineering decision records: Decision, Reason, Alternatives, Advantages, Disadvantages, Decision Date, Author."
+    },
+    {
+      "id": "pending-adrs",
+      "heading": "Decisions to document",
+      "bullets": [
+        "ADR-001 — Modular monolith vs microservices for pilot (recommended: monolith first)",
+        "ADR-002 — PostgreSQL + TimescaleDB for telemetry time series",
+        "ADR-003 — ASP.NET Core as primary stack vs Python/FastAPI for AI services",
+        "ADR-004 — Separate public repo for Engineering Portal documentation"
+      ]
+    }
+  ]
+}

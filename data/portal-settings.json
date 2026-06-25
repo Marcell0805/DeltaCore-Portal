@@ -1,0 +1,19 @@
+{
+  "portalName": "DeltaCore Engineering Portal",
+  "tagline": "Industrial intelligence for mining, construction and fleet operations",
+  "version": "1.0",
+  "homeQuote": "Augment existing telemetry — do not replace it.",
+  "maintainerDocsUrl": "https://github.com/Marcell0805/DeltaCore/blob/master/portal/ENGINEERING_PORTAL.md",
+  "productRepoUrl": "https://github.com/Marcell0805/DeltaCore",
+  "swaggerUrl": "https://localhost:5001/swagger",
+  "auth": {
+    "password": "deltacore",
+    "storageKey": "deltacore_portal_auth"
+  },
+  "theme": {
+    "primaryColor": "#1B3A5C",
+    "accentColor": "#2E75B6",
+    "highlightColor": "#F28C28",
+    "backgroundColor": "#E8F1F8"
+  }
+}
